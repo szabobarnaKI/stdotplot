@@ -1,0 +1,16 @@
+v 3
+d stdotplot. Individual follow-up histories of st data as a connected dot plot
+d
+d {cmd:stdotplot} draws one horizontal line per subject from multiple-record,
+d multiple-failure {cmd:stset} data, with markers for events of interest,
+d competing events, censoring and entry. Follow-up segments can be coloured
+d by a time-varying categorical variable, and time-varying weights (e.g.
+d inverse probability weights) can be shown as line width or colour
+d intensity. Competing codes before the end of follow-up are always marked,
+d so misspecified data are easy to spot.
+d
+d Author: Barna Szabo, Karolinska Institutet
+d Requires: Stata 15 or later (line widths in points need Stata 16)
+d Distribution-Date: 20261119
+f stdotplot.ado
+f stdotplot.sthlp
