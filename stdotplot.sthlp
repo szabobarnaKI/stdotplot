@@ -1,11 +1,17 @@
 {smcl}
-{* *! version 0.8.0  18nov2026}{...}
+{* *! version 0.8.1  19nov2026}{...}
+{viewerjumpto "Syntax" "stdotplot##syntax"}{...}
+{viewerjumpto "Description" "stdotplot##description"}{...}
+{viewerjumpto "Examples" "stdotplot##examples"}{...}
+{viewerjumpto "Stored results" "stdotplot##results"}{...}
+{viewerjumpto "AI disclosure" "stdotplot##ai"}{...}
 {title:Title}
 
 {phang}
 {bf:stdotplot} {hline 2} Individual follow-up histories of st data as a connected dot plot
 
 
+{marker syntax}{...}
 {title:Syntax}
 
 {p 8 17 2}
@@ -58,6 +64,7 @@
 You must {cmd:stset} your data before using {cmd:stdotplot}; see {manhelp stset ST}.
 
 
+{marker description}{...}
 {title:Description}
 
 {pstd}
@@ -142,6 +149,7 @@ texts and {cmd:xsize()}/{cmd:ysize()}). {cmd:legend(cols(2))} keeps two
 columns.
 
 
+{marker examples}{...}
 {title:Examples}
 
 {phang2}{cmd:. stset t, id(id) failure(status==1) time0(t0) exit(time .)}{p_end}
@@ -153,6 +161,7 @@ columns.
 {phang2}{cmd:. stdotplot [pw=ipw], id(id) compete(2) colorby(dose) wstyle(intensity) wcuts(0.5 1 2)}{p_end}
 
 
+{marker results}{...}
 {title:Stored results}
 
 {synoptset 16 tabbed}{...}
@@ -168,6 +177,18 @@ columns.
 {synopt:{cmd:r(legcols)}}{cmd:cols(1)} if the legend was switched to one column{p_end}
 
 
+{marker ai}{...}
+{title:AI disclosure}
+
+{pstd}
+This command was developed using substantial work from Claude AI (Anthropic), with human supervision.
+{p_end}
+
+{marker author}{...}
 {title:Author}
 
-{pstd}Barna Szabo, Karolinska Institutet{p_end}
+{pstd}
+Barna Szabó-Söderberg{break}
+{it:Karolinska Institutet}{break}
+{ul:barna.szabo@ki.se}
+{p_end}

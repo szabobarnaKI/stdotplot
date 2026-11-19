@@ -1,4 +1,4 @@
 v 3
 d stdotplot: individual follow-up histories of st data as a connected dot plot
-d Barna Szabo, Karolinska Institutet
+d Program by Barna Szabó-Söderberg
 p stdotplot Dot plot of follow-up, events, competing events and censoring from stset data

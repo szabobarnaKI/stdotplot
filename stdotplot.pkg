@@ -9,7 +9,8 @@ d inverse probability weights) can be shown as line width or colour
 d intensity. Competing codes before the end of follow-up are always marked,
 d so misspecified data are easy to spot.
 d
-d Author: Barna Szabo, Karolinska Institutet
+d Program by Barna Szabó-Söderberg, Karolinska Institutet (barna.szabo@ki.se)
+d Developed using substantial work from Claude AI (Anthropic), with human supervision.
 d Requires: Stata 15 or later (line widths in points need Stata 16)
 d Distribution-Date: 20261119
 f stdotplot.ado

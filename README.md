@@ -56,6 +56,10 @@ Stored results: `r(N_sub)`, `r(N_fail)`, `r(N_compete)`, `r(N_compete_mid)`, `r(
 - `stdotplot.pkg`, `stata.toc`: package files for `net install`
 - `stdotplot_test.do`: tests on simulated data (uses `ghlog` to upload the log; edit or remove those lines)
 
+## AI disclosure
+
+This command was developed using substantial work from Claude AI (Anthropic), with human supervision.
+
 ## Author
 
-Barna Szabo, Karolinska Institutet
+Barna Szabó-Söderberg, Karolinska Institutet, barna.szabo@ki.se
